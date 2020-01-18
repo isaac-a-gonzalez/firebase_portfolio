@@ -19,6 +19,8 @@
 
     <link rel="stylesheet" href="venobox/venobox.css" type="text/css" media="screen" />
 
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+
 
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 </head>
@@ -229,7 +231,7 @@ https://templatemo.com/tm-526-vanilla
                     <div class="wrapper">
                         <section id="first-tab-group" class="tabgroup">
                             <div id="tab1">
-                                <img src="img/sailing.jpeg" alt="">
+                                <img src="img/green.JPG" alt="">
                                 <p>I grew up in small town called Las Flores. It's a quiet place in the hills of the
                                     southern part of Orange County California. It was here that I learned to appreciate,
                                     explore, and respect nature.</p>
@@ -242,13 +244,13 @@ https://templatemo.com/tm-526-vanilla
                                     venenatis.</p>
                             </div>
                             <div id="tab3">
-                                <img src="img/3rd-tab.jpg" alt="">
+                                <img src="img/chile.jpg" alt="">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia ligula est, at
                                     venenatis ex iaculis quis. Morbi sollicitudin nulla eget odio pellentesque, sed
                                     cursus diam iaculis.</p>
                             </div>
                             <div id="tab4">
-                                <img src="img/4th-tab.jpg" alt="">
+                                <img src="img/code.jpeg" alt="">
                                 <p>Duis risus nulla, elementum vitae nisi a, ornare maximus nisl. Morbi et vehicula est.
                                     Cras at vulputate justo. Cras eu nulla metus. Ut et pretium velit. Pellentesque at
                                     neque tristique.</p>
@@ -304,17 +306,20 @@ https://templatemo.com/tm-526-vanilla
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="map">
-                        <!-- How to change your own map point
+                    <!-- <div class="map">
+                        How to change your own map point
                            1. Go to Google Maps
                            2. Click on your location point
                            3. Click "Share" and choose "Embed map" tab
                            4. Copy only URL and paste it within the src="" field below
-                    -->
+
 
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1197183.8373802372!2d-1.9415093691103689!3d6.781986417238027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdb96f349e85efd%3A0xb8d1e0b88af1f0f5!2sKumasi+Central+Market!5e0!3m2!1sen!2sth!4v1532967884907"
                             width="100%" height="390" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div> -->
+                    <div class="calendar">
+
                     </div>
                 </div>
             </div>
@@ -329,15 +334,17 @@ https://templatemo.com/tm-526-vanilla
                         <a href="#home">Back To Top</a>
                     </div>
                     <ul>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google"></i></a></li>
-                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                        <!-- <li><a href="#"><i class="fa fa-facebook"></i></a></li> -->
+                        <!-- <li><a href="#"><i class="fa fa-twitter"></i></a></li> -->
+                        <li><a href="https://www.linkedin.com/in/isaac-a-gonzalez/" target="_blank"><i
+                                    class="fa fa-linkedin"></i></a>
+                        </li>
+                        <!-- <li><a href="#"><i class="fa fa-google"></i></a></li> -->
+                        <!-- <li><a href="#"><i class="fa fa-dribbble"></i></a></li> -->
                     </ul>
-                    <p>Copyright &copy; 2019 Company Name
+                    <!-- <p>Copyright &copy; 2019 Company Name
 
-                        - Design: <a rel="nofollow noopener" href="https://templatemo.com"><em>TemplateMo</em></a></p>
+                        - Design: <a rel="nofollow noopener" href="https://templatemo.com"><em>TemplateMo</em></a></p> -->
                 </div>
             </div>
         </div>
@@ -395,6 +402,12 @@ https://templatemo.com/tm-526-vanilla
         $(document).ready(function () {
             $('.venobox').venobox();
         });
+    </script>
+    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+    <script>
+        GitHubCalendar(".calendar", "isaac-a-gonzalez");
+        // or enable responsive functionality
+        GitHubCalendar(".calendar", "isaac-a-gonzalez", { responsive: true });
     </script>
 </body>
 
