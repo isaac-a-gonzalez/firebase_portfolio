@@ -153,7 +153,7 @@ a:hover { color: #FF0; }
 
 
 .baner-content {
-  padding-top: 30vh;
+  padding-top: 12vh;
   text-align: center;
   background-image: url(../img/1st-section.jpg);
 }
@@ -179,6 +179,11 @@ a:hover { color: #FF0; }
   font-weight: 300;
   font-size: 25px;
   color: #fff;
+}
+
+.baner-content img {
+width: 25%;
+
 }
 
 .baner-content .primary-button {
@@ -256,6 +261,7 @@ h4, .h4 {
   padding-top: 20vh;
   background-image: url(../img/3rd-section.jpg);
 }
+
 
 .projects-content .item img {
   width: 100%;
@@ -387,9 +393,10 @@ section {
 .contact-content {
   padding-left: 15px;
   padding-right: 15px;
-  padding-top: 16vh;
+  padding-top: 20vh;
   background-image: url(../img/5th-section.jpg);
 }
+
 
 .contact-form {
   background-color: rgba(0, 0, 0, 0.5);
@@ -454,12 +461,19 @@ section {
   letter-spacing: 0.5px;
 }
 
-/* .map {
+#thankyouBlock .row h4{
+  display: inline-block;
+
+  margin-top: 0px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-bottom: 30px;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 30px 20px;
-} */
+  margin-top: 30px;
+  text-align: center;
+}
 
 
 
