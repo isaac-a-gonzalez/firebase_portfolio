@@ -505,8 +505,8 @@ footer em {
     font-size: 64px;
   }
 
-  .baner-content em {
-  }
+  /* .baner-content em {
+  } */
 
   .baner-content span {
     font-size: 24px;
@@ -762,4 +762,15 @@ body.lb-disable-scrolling {
   cursor: pointer;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
+}
+
+.git_graph {
+background-color: rgba(0, 0, 0, 0.5);
+
+
+
+}
+
+.float-left {
+  color:white;
 }
