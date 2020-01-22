@@ -266,22 +266,33 @@ h4, .h4 {
 }
 
 .projects-content .item .text-content {
-  background-color: #fff;
+  /* background-color: #fff; */
   text-align: center;
   padding: 20px;
 }
 
 .projects-content .item .text-content h4 {
   margin-top: 0px;
-  font-size: 19px;
+  font-size: 22px;
   font-weight: 600;
+  color: #fff;
+
+}
+
+.projects-content .item .text-content .line-dec {
+  width: 45px;
+  height: 3px;
+  background-color: #ff7d27;
+  margin: 20px auto 15px auto;
 }
 
 .projects-content .item .text-content span {
   font-style: normal;
-  font-size: 17px;
-  font-weight: 700;
-  color: #ff7d27;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+
+  /* color: #ff7d27; */
 }
 
 .owl-pagination {
