@@ -25,6 +25,19 @@ jQuery(document).ready(function ($) {
     offset: 200
   });
 
+  // hide contact_me form and display thank you for your submission
+
+  // function SubForm() {
+  //   $.ajax({
+  //     url: '/Person/Edit/@Model.Id/',
+  //     type: 'post',
+  //     data: $('#myForm').serialize(),
+  //     success: function () {
+  //       alert("worked");
+  //     }
+  //   });
+  // }
+
   // smoothscroll on sidenav click
 
   $('.tabgroup > div').hide();
