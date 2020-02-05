@@ -321,6 +321,16 @@ h4, .h4 {
   background: #fff;
 }
 
+.my-story_container {
+  text-align: center;
+  background-color: transparent;
+  padding: 70px 0px;
+}
+
+.my-story_container .primary-button {
+  margin-bottom: 30px;
+}
+
 
 .tabs-content {
   padding-left: 15px;
@@ -355,15 +365,17 @@ section {
 }
 
 .tabs a {
-  display:block;
-  text-align:center;
-  text-decoration:none;
-  text-transform:uppercase;
-  color:#fff;
-  font-size: 14px;
+  display: inline-block;
+  padding: 15px 24px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 11px;
+  color: #fff;
   font-weight: 700;
-  padding:10px 15px;
-  border:4px solid #fff;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  border: 2px solid #e7e7e7;
+
 }
 
 .tabs a:hover {
@@ -390,6 +402,15 @@ section {
   clear:both;
 }
 
+.contact-me_container {
+  text-align: center;
+  background-color: transparent;
+  padding: 70px 0px;
+}
+
+.contact-me_container .primary-button {
+  margin-bottom: 30px;
+}
 
 .contact-content {
   padding-left: 15px;
